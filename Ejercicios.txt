@@ -1,0 +1,17 @@
+Ejercicios
+
+- Hello world: Un programa que imprima “Hello world!”
+
+- Suma de dos números: Un programa que pida al usuario
+introducir dos números y que imprima la suma.
+
+- Números primos: Un programa que pida al usuario
+introducir un número y que imprima si es o no es primo
+
+- Una pequeña redacción explicando qué conceptos de
+programación domináis.
+
+- Indicad si conocéis (y explicad qué son): variables,
+funciones, recursividad, bucles, condicionales, json,
+xml, html, clases, herencia, sql, queries, commit, pull
+request, API
