@@ -16,5 +16,7 @@ public class Main {
         int resultado = scan1 + scan2;
         System.out.println("Resultado:");
         System.out.println(resultado);
+
+        sc.close();
     }
 }
