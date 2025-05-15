@@ -1,0 +1,117 @@
+Ejercicios de Programación en Java
+
+1. Factorial de un número
+Calcular el factorial de un número usando un bucle for.
+Ejemplo:
+Entrada: 5
+Salida: 120
+Bonus: Hazlo también con recursión.
+
+2. Palíndromo simple
+Verificar si una palabra es igual a sí misma al revés.
+Ejemplo:
+Entrada: 'oso'
+Salida: true
+
+3. Contar vocales en una frase
+Contar cuántas vocales (a, e, i, o, u) hay en una frase dada.
+Ejemplo:
+Entrada: 'Hola Mundo'
+Salida: 4
+Bonus: Muestra cuántas veces aparece cada vocal.
+
+4. Buscar el mayor número en un array
+Dado un array de enteros, encontrar el número más grande.
+Ejemplo:
+Entrada: [3, 7, 2, 9]
+Salida: 9
+Bonus: Además, muestra la posición del mayor número.
+
+5. Invertir un array
+Mostrar un array en orden inverso.
+Ejemplo:
+Entrada: [1, 2, 3, 4]
+Salida: [4, 3, 2, 1]
+Bonus: Hazlo sin crear ningún array extra.
+
+6. Ordenar un array sin Arrays.sort()
+Ordenar los elementos de un array manualmente.
+Ejemplo:
+Entrada: [5, 1, 4, 2]
+Salida: [1, 2, 4, 5]
+Bonus: Permite al usuario elegir el tipo de ordenamiento (bubble sort, merge sort o quick
+sort).
+
+7. Calculadora simple
+Crear una calculadora que pueda sumar, restar, multiplicar y dividir dos números.
+Ejemplo:
+Entrada: 4, 2, '*'
+Salida: 8
+
+8. Generador de contraseñas aleatorias
+Generar contraseñas con letras y números al azar, con longitud definida.
+Ejemplo:
+Entrada: 8
+Salida: 'a8B3cD1e'
+Bonus: Permite incluir símbolos especiales si el usuario lo desea.
+
+9. Calculadora científica básica
+Extender la calculadora para incluir raíz cuadrada, potencia y módulo.
+Ejemplo:
+Entrada: 9, 'sqrt'
+Salida: 3
+Bonus: Añade opción de operaciones encadenadas.
+
+10. Versión avanzada del palíndromo
+Comprobar si una frase es un palíndromo ignorando espacios, mayúsculas y tildes.
+Ejemplo:
+Entrada: 'La ruta natural'
+Salida: true
+Bonus: Quita también signos de puntuación y compara.
+
+11. Contador de palabras
+Contar el número de palabras en una frase dada.
+Ejemplo:
+Entrada: 'Hola mundo desde Java'
+Salida: 4
+Bonus: Cuenta también cuántas palabras empiezan por vocal.
+
+12. Reemplazar letras en una cadena
+Reemplazar todas las letras 'a' por '@' en una cadena de texto.
+Ejemplo:
+Entrada: 'casa'
+Salida: 'c@s@'
+Bonus: Haz que el usuario elija qué letra reemplazar y por qué símbolo.
+
+13. Números primos en un rango
+Mostrar todos los números primos entre dos valores dados.
+Ejemplo:
+Entrada: 10, 20
+Salida: 11, 13, 17, 19
+
+14. Buscar una palabra en una frase
+Verificar si una palabra está contenida dentro de una frase (sin importar mayúsculas).
+Ejemplo:
+Entrada: 'Me gusta Java', 'java'
+Salida: true
+Bonus: Devuelve la posición donde se encuentra la palabra en la frase.
+
+15. Conversor de temperaturas
+Crear funciones para convertir entre Celsius, Fahrenheit y Kelvin.
+Ejemplo:
+Entrada: 0°C
+Salida: 32°F, 273.15K
+Bonus: Permite convertir en ambas direcciones según selección del usuario.
+
+16. Análisis de texto
+Dado un texto, mostrar: número de caracteres, palabras, palabra más larga, número de
+vocales y si es palíndromo.
+Ejemplo:
+Entrada: 'Anita lava la tina'
+Salida:
+- Caracteres: 18
+- Palabras: 4
+- Palabra más larga: 'Anita'
+- Vocales: 8
+- ¿Palíndromo?: true
+Bonus: Agrega una opción para exportar el análisis a un archivo de texto
