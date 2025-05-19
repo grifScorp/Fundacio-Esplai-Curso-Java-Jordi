@@ -14,9 +14,31 @@ public class Main {
 
         return resultado;
     }
+
+    private static void test() {
+        int num = 3;
+        System.out.println("Numero:" + num);
+        System.out.println("Factorial:" + (factorial(num)));
+        System.out.println("");
+
+
+        num = 4;
+        System.out.println("Numero:" + num);
+        System.out.println("Factorial:" + (factorial(num)));
+        System.out.println("");
+
+
+        num = 5;
+        System.out.println("Numero:" + num);
+        System.out.println("Factorial:" + (factorial(num)));
+        System.out.println("");
+
+    }
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        test();
 
         System.out.print("Numero:");
         int numero = sc.nextInt();
