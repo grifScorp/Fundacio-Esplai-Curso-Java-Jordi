@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Factorial {
+public class FactorialProfe {
 
     // factorial (n) = n * (n-1) * (n-2) * ... * 1
     // factorial (n) = n * factorial (n-1)
