@@ -16,19 +16,19 @@ public class Main {
     }
 
     private static void test() {
-        int num = 3;
+        int num = 5;
         System.out.println("Numero:" + num);
         System.out.println("Factorial:" + (factorial(num)));
         System.out.println("");
 
 
-        num = 4;
+        num = 8;
         System.out.println("Numero:" + num);
         System.out.println("Factorial:" + (factorial(num)));
         System.out.println("");
 
 
-        num = 5;
+        num = 10;
         System.out.println("Numero:" + num);
         System.out.println("Factorial:" + (factorial(num)));
         System.out.println("");
