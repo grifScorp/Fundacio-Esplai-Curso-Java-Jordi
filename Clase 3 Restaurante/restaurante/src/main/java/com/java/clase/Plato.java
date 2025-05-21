@@ -1,3 +1,4 @@
+package com.java.clase;
 
 public class Plato {
     private static int idCounter = 0;
