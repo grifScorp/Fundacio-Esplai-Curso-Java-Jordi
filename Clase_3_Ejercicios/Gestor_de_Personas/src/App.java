@@ -10,7 +10,7 @@ public class App {
         Persona p2 = new Persona("Ezequiel", 20, "Ezequiel@gmail.com");
 
         listaPersonas.add(p1);
-        listaPersonas.add(p2);
+        listaPersonas.add(p2);  
 
         Scanner sc = new Scanner(System.in);        
         int opcion = -1;
@@ -72,7 +72,14 @@ public class App {
                         System.out.print(p.getNombre() + " Edad: " + p.getEdad() + " ");
                         System.out.print("No es Mayor de Edad");
                     }
-                    
+                    break;
+                case 3:
+                    System.out.print("Posicion en la lista: ");
+                    int posicion = sc.nextInt();
+                    sc.nextLine();
+
+                    listaPersonas.remove(posicion);
+                    System.out.print("Eliminado!");
                     break;
                 default:
                     System.out.println("Opcion no Permitida");;
